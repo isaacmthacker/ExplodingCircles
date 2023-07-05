@@ -33,6 +33,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Exploding Circles";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.ExplodingCircles_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ExplodingCircles_MouseClick);
         }
 
         #endregion
